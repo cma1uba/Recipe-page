@@ -1,10 +1,19 @@
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
 *{
+  color: #333;
+  line-height: 1.6;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: outfit, sans-serif;
 }
 .container{
-  font-size: 16px;
+  max-width: 640px;
+  margin: 0 auto;
+  background: hsl(0, 0%, 100%);
 }
 
 img{
@@ -12,28 +21,93 @@ img{
   height:  100%;
 }
 .main{
-  margin: 15px;
-  padding: 0 10px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.header h1{
+h1{
   font: 20px;
   margin-bottom: 15px;
+  font-family: Young serif;
 }
-.header p{
+h2{
+  color: hsl(14, 45%, 36%);
+  font-family: Young Serif;
+}
+p li{
   font-size: 16px;
-  margin-bottom: 15px;
+  color: #666;
 }
-.timing{
-  background: pink;
-  padding: 15px;
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #ddd;
+  margin: 30px 0;
+}
+.prep-time{
+  padding: 20px;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  background: hsl(330, 100%, 98%);
 }
-.timing h3{
-  color: purple;
+.prep-time h3{
+  color: hsl(332, 51%, 32%);
+  margin: 0 15px;
+
 }
-.timing ul{
-  margin: 15px;
-  padding: 15px;
-  line-height: 1.8rem;
+ul{
+  list-style: none;
 }
+ul li::before {
+  content: "•";
+  color: #5a3c26;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1em;
+}
+.ingredients{
+  margin: 20px auto;
+}
+ol{
+  list-style: none;
+  counter-reset: custom-counter;
+}
+ol li{
+  counter-increment: custom-counter;
+  color: #666;
+}
+ol li::before{
+  content: counter(custom-counter)".";
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  margin-left: -1.5em;
+  margin-right: 10px;
+}
+.nutrition-info{
+  margin-top: 20px;
+}
+.nutrition-info p{
+  margin: 10px auto;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+td{
+  padding: 10px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+.value{
+  font-weight: 800;
+  color: hsl(14, 45%, 36%);
+}
+.attribution{
+  background: #ccc;
+  font-size: 11px;
+  text-align: center;
+}
+a{
+  color: hsl(228, 45%, 44%);
+  }
