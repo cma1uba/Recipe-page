@@ -8,11 +8,10 @@ body{
   color: #333;
   line-height: 1.6;
   margin: 0;
-  background-color: #fdfbd4;
   font-family: outfit, sans-serif;
 }
 .container{
-  max-width: 750px;
+  max-width: 775px;
   background: #fff;
   margin: 0 auto;
   background: hsl(0, 0%, 100%);
