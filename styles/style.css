@@ -4,20 +4,20 @@
   font-style: normal;
 }
 
-body{
+*{
   color: #333;
   line-height: 1.6;
   margin: 0;
   font-family: outfit, sans-serif;
 }
-.main{
+.content{
   background: hsl(30, 54%, 90%);
 }
 .container{
-  max-width: 775px;
-  background: #fff;
+  max-width: 640px;
   margin: 0 auto;
   background: hsl(0, 0%, 100%);
+  box-shadow: 35deg #ccc 3px;
 }
 
 img{
@@ -101,6 +101,7 @@ table{
 td{
   padding: 10px 20px;
   text-align: left;
+  font-size: 16px;
   border-bottom: 1px solid #ccc;
 }
 .value{
@@ -114,4 +115,15 @@ td{
 }
 a{
   color: hsl(228, 45%, 44%);
+}
+
+/*Device responsiveness*/
+
+@media only screen and (min-width: 992px){
+  .container{
+    max-width: 990px;
+  }
+  .hero{
+    padding: 10px;
+  }
   }
