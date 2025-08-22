@@ -20,8 +20,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/cma1uba/Recipe-page)
+- Live Site URL: Github-pages](https://github.com/cma1uba/Recipe-page).
 
 ## My process
   My approach was pretty simple and straight foward. 
@@ -48,7 +48,9 @@ Firstly after getting the challenge, i suddenly didn't know where to start from,
 I realized how things start working once you start the project.
 
 I learnt how to work with tables
+
 I learnt how to deploy a site on github pages
+
 
 
 ### Continued development
@@ -64,5 +66,5 @@ To be honest i want to continue practicing and improve in all areas.
 
 ## Author
 
-- Website - [Maluba Choonya](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Maluba Choonya](https://github.com/cma1uba/Recipe-page)
+- Frontend Mentor - [@cmaluba](https://www.frontendmentor.io/profile/cma1uba)
