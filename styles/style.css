@@ -7,11 +7,12 @@
 *{
   color: #333;
   line-height: 1.6;
+  background: #ccc;
   margin: 0;
   font-family: outfit, sans-serif;
 }
 .container{
-  max-width: 640px;
+  max-width: 675px;
   margin: 0 auto;
   background: hsl(0, 0%, 100%);
 }
