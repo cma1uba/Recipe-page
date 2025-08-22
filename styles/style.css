@@ -14,7 +14,7 @@
   background: hsl(30, 54%, 90%);
 }
 .container{
-  max-width: 640px;
+  max-width: 800px;
   margin: 0 auto;
   background: hsl(0, 0%, 100%);
   box-shadow: 35deg #ccc 3px;
@@ -115,15 +115,4 @@ td{
 }
 a{
   color: hsl(228, 45%, 44%);
-}
-
-/*Device responsiveness*/
-
-@media only screen and (min-width: 992px){
-  .container{
-    max-width: 990px;
-  }
-  .hero{
-    padding: 10px;
-  }
-  }
+    }
