@@ -1,10 +1,5 @@
-.young-serif-regular {
-  font-family: "Young Serif", serif;
-  font-weight: 100;
-  font-style: normal;
-}
 
-*{
+body{
   color: #333;
   line-height: 1.6;
   margin: 0;
