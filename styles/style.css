@@ -12,7 +12,7 @@ body{
   max-width: 800px;
   margin: 0 auto;
   background: hsl(0, 0%, 100%);
-  box-shadow: 35deg #ccc 3px;
+  box-shadow: 38deg #ccc 3px;
 }
 
 img{
@@ -29,7 +29,7 @@ h1{
   font-family: Young serif;
 }
 h2{
-  color: hsl(14, 45%, 36%);
+  color: hsl(14, 45%, 35%);
   font-family: Young Serif;
 }
 p li{
@@ -47,7 +47,7 @@ hr {
   padding: 20px;
   border-radius: 10px;
   margin-top: 20px;
-  background: hsl(330, 100%, 98%);
+  background: hsl(330, 100%, 97%);
 }
 .prep-time h3{
   color: hsl(332, 51%, 32%);
